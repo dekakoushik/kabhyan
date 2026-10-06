@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabhyan Technologies | Enterprise Software Development & IT Solutions</title>
+  <meta name="description" content="Kabhyan Technologies is a premier Enterprise Software Development & IT Solution Company. Transforming enterprises with intelligent cloud systems, custom software, AI integration, and mission-critical digital infrastructure.">
+  <meta name="keywords" content="Enterprise Software, IT Solutions, Cloud Engineering, Custom Web Development, AI Automation, Kabhyan Technologies, Software Architecture">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light-theme">
+
+  <!-- Top Announcement / Enterprise Ticker -->
+  <div class="top-bar" id="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-left">
+        <span class="pulse-indicator"></span>
+        <span class="badge-subtle">NEW</span>
+        <span class="top-text">Next-Gen Enterprise Cloud & AI Engineering Services are Live!</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+917086959737" class="top-contact"><i class="fa-solid fa-phone"></i> +91 70869 59737</a>
+        <span class="divider">|</span>
+        <a href="mailto:info@kabhyan.com" class="top-contact"><i class="fa-solid fa-envelope"></i> info@kabhyan.com</a>
+        <span class="divider">|</span>
+        <a href="https://maps.app.goo.gl/vBjVmAvmamZSQBzy9" target="_blank" rel="noopener" class="top-contact"><i class="fa-solid fa-location-dot"></i> Find on Map</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Navigation -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Kabhyan Technologies Home">
+        <img src="assets/logo.png" alt="Kabhyan Technologies Logo" class="logo-img logo-light" id="nav-logo">
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a href="#services" class="nav-link">Services <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+            <div class="dropdown-menu">
+              <div class="dropdown-grid">
+                <a href="#services" class="dropdown-link-card">
+                  <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                  <div>
+                    <strong>Custom Enterprise Software</strong>
+                    <p>Scalable, fault-tolerant microservices & backends</p>
+                  </div>
+                </a>
+                <a href="#services" class="dropdown-link-card">
+                  <div class="icon-box"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                  <div>
+                    <strong>Cloud & DevOps Architecture</strong>
+                    <p>AWS, Azure, Docker, Kubernetes & CI/CD</p>
+                  </div>
+                </a>
+                <a href="#services" class="dropdown-link-card">
+                  <div class="icon-box"><i class="fa-solid fa-brain"></i></div>
+                  <div>
+                    <strong>AI & Intelligent Automation</strong>
+                    <p>Machine learning workflows and smart analytics</p>
+                  </div>
+                </a>
+                <a href="#services" class="dropdown-link-card">
+                  <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                  <div>
+                    <strong>Security & Database Optimization</strong>
+                    <p>High-concurrency DB tuning & zero-trust protection</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#capabilities" class="nav-link">Capabilities</a></li>
+          <li class="nav-item"><a href="#case-studies" class="nav-link">Work</a></li>
+          <li class="nav-item"><a href="#architecture" class="nav-link">Laravel Backend</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Theme Mode">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+        
+        <a href="#contact" class="btn btn-primary btn-glow" id="cta-header-btn">
+          <span>Get Consultation</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        
+        <button class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Open Mobile Navigation">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background-decor">
+        <div class="decor-circle circle-1"></div>
+        <div class="decor-circle circle-2"></div>
+        <div class="decor-grid-pattern"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="tag-dot"></span>
+            <span class="tag-text">Enterprise Software & IT Solutions</span>
+          </div>
+
+          <h1 class="hero-title">
+            Engineering High-Impact <span class="gradient-text">Software Systems</span> For Modern Global Enterprises
+          </h1>
+
+          <p class="hero-description">
+            Kabhyan Technologies delivers robust enterprise platforms, custom software architectures, cloud infrastructure, and AI-driven automation built on clean engineering standards.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary btn-lg" id="hero-primary-cta">
+              <span>Start Your Project</span>
+              <i class="fa-solid fa-rocket"></i>
+            </a>
+            <a href="#video-tour" class="btn btn-outline btn-lg" id="hero-secondary-cta">
+              <i class="fa-solid fa-circle-play"></i>
+              <span>Watch Corporate Film</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges / Quick Stats -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-number">99.9%</span>
+              <span class="metric-label">High Availability</span>
+            </div>
+            <div class="metric-separator"></div>
+            <div class="metric-item">
+              <span class="metric-number">50+</span>
+              <span class="metric-label">Enterprise Deployments</span>
+            </div>
+            <div class="metric-separator"></div>
+            <div class="metric-item">
+              <span class="metric-number">24/7</span>
+              <span class="metric-label">Critical IT Support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="video-preview-card" id="video-tour">
+            <div class="video-card-header">
+              <div class="window-controls">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="window-title"><i class="fa-solid fa-building-circle-check"></i> Kabhyan Corporate Film</span>
+              <span class="status-badge"><i class="fa-solid fa-circle-check"></i> 1080p HD</span>
+            </div>
+            
+            <div class="video-wrapper">
+              <video id="hero-corporate-video" controls playsinline preload="metadata" poster="assets/logo.png">
+                <source src="assets/corporate-video.mp4" type="video/mp4">
+                Your browser does not support high definition HTML5 video.
+              </video>
+            </div>
+
+            <div class="video-card-footer">
+              <div class="video-tagline">
+                <i class="fa-solid fa-bolt-lightning"></i>
+                <span><strong>Intelligence. Innovation. Impact.</strong></span>
+              </div>
+              <span class="video-duration">Enterprise Overview</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted Tech Ecosystem Bar -->
+    <section class="tech-marquee-section">
+      <div class="container">
+        <p class="marquee-heading">ENTERPRISE STACK POWERING OUR CLIENT ARCHITECTURES</p>
+        <div class="marquee-track">
+          <div class="marquee-item"><i class="fa-brands fa-laravel"></i> Laravel 11</div>
+          <div class="marquee-item"><i class="fa-brands fa-php"></i> PHP 8.3+</div>
+          <div class="marquee-item"><i class="fa-brands fa-docker"></i> Docker</div>
+          <div class="marquee-item"><i class="fa-brands fa-aws"></i> AWS Cloud</div>
+          <div class="marquee-item"><i class="fa-brands fa-react"></i> React & Next.js</div>
+          <div class="marquee-item"><i class="fa-brands fa-node-js"></i> Node.js Microservices</div>
+          <div class="marquee-item"><i class="fa-brands fa-python"></i> Python AI/ML</div>
+          <div class="marquee-item"><i class="fa-solid fa-database"></i> PostgreSQL & MySQL</div>
+          <div class="marquee-item"><i class="fa-brands fa-git-alt"></i> DevOps CI/CD</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-badge"><i class="fa-solid fa-shield"></i> Who We Are</span>
+          <h2 class="section-title">Engineering Digital Resilience For Businesses Worldwide</h2>
+          <p class="section-subtitle">
+            Kabhyan Technologies Private Limited is a specialized IT and Enterprise Software engineering company. We bridge complex domain problems with scalable, state-of-the-art technological architectures.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card card-lift">
+            <div class="about-card-icon icon-blue">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3>Intelligence-Driven Development</h3>
+            <p>
+              We design software architectures that evolve with data. Our systems incorporate automation, algorithmic efficiency, and automated testing to guarantee zero regressions.
+            </p>
+            <ul class="about-list">
+              <li><i class="fa-solid fa-circle-check"></i> Modular Clean Architecture & Domain-Driven Design</li>
+              <li><i class="fa-solid fa-circle-check"></i> Continuous integration & continuous security testing</li>
+              <li><i class="fa-solid fa-circle-check"></i> Scalable caching mechanisms with Redis & Memcached</li>
+            </ul>
+          </div>
+
+          <div class="about-card card-lift">
+            <div class="about-card-icon icon-indigo">
+              <i class="fa-solid fa-sitemap"></i>
+            </div>
+            <h3>Mission-Critical IT Solutions</h3>
+            <p>
+              From cloud migration to round-the-clock infrastructure observability, we empower mid-market and enterprise businesses to operate without downtime or data vulnerability.
+            </p>
+            <ul class="about-list">
+              <li><i class="fa-solid fa-circle-check"></i> Zero-downtime database upgrades & replicas</li>
+              <li><i class="fa-solid fa-circle-check"></i> Multi-zone cloud failover & disaster recovery</li>
+              <li><i class="fa-solid fa-circle-check"></i> Enterprise SLA guarantees with proactive monitoring</li>
+            </ul>
+          </div>
+
+          <div class="about-card card-lift">
+            <div class="about-card-icon icon-emerald">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3>Proven Business Impact</h3>
+            <p>
+              We align every line of code with measurable business KPIs: reducing operational costs, increasing customer checkout velocity, and accelerating time-to-market.
+            </p>
+            <ul class="about-list">
+              <li><i class="fa-solid fa-circle-check"></i> 65%+ reduction in legacy process runtimes</li>
+              <li><i class="fa-solid fa-circle-check"></i> SOC-2 & ISO 27001 compliant architectures</li>
+              <li><i class="fa-solid fa-circle-check"></i> Dedicated enterprise project delivery teams</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Services Section -->
+    <section class="services-section section-padding bg-subtle" id="services">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-badge"><i class="fa-solid fa-cubes-stacked"></i> What We Do</span>
+          <h2 class="section-title">Comprehensive Enterprise Solutions</h2>
+          <p class="section-subtitle">
+            Tailored software solutions designed to handle enterprise workloads, complex integrations, and large customer volumes.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card" id="service-enterprise-software">
+            <div class="service-header">
+              <div class="service-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <span class="service-num">01</span>
+            </div>
+            <h3 class="service-title">Enterprise Software Development</h3>
+            <p class="service-desc">
+              Custom ERP, CRM, inventory orchestration, and core business management platforms crafted for scalability, regulatory compliance, and multi-tenant isolation.
+            </p>
+            <div class="service-tags">
+              <span>Clean Code</span>
+              <span>RESTful & GraphQL</span>
+              <span>Multi-Tenant</span>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card" id="service-cloud-devops">
+            <div class="service-header">
+              <div class="service-icon"><i class="fa-solid fa-cloud-bolt"></i></div>
+              <span class="service-num">02</span>
+            </div>
+            <h3 class="service-title">Cloud Architecture & DevOps</h3>
+            <p class="service-desc">
+              Automated deployment pipelines, serverless functions, container orchestration via Kubernetes, and high-performance AWS/Azure infrastructure.
+            </p>
+            <div class="service-tags">
+              <span>Docker</span>
+              <span>Kubernetes</span>
+              <span>AWS / Azure</span>
+              <span>Terraform</span>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card" id="service-laravel-backends">
+            <div class="service-header">
+              <div class="service-icon"><i class="fa-brands fa-laravel"></i></div>
+              <span class="service-num">03</span>
+            </div>
+            <h3 class="service-title">Laravel & PHP Modernization</h3>
+            <p class="service-desc">
+              Industry-grade Laravel API engineering, Horizon queue processing, Sanctum/Passport authentication, and migration from legacy monolithic systems.
+            </p>
+            <div class="service-tags">
+              <span>Laravel 11</span>
+              <span>Eloquent ORM</span>
+              <span>Async Queues</span>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card" id="service-ai-solutions">
+            <div class="service-header">
+              <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+              <span class="service-num">04</span>
+            </div>
+            <h3 class="service-title">AI & Cognitive Automation</h3>
+            <p class="service-desc">
+              Integration of predictive models, automated document processing, natural language assistants, and intelligent data pipeline extraction.
+            </p>
+            <div class="service-tags">
+              <span>LLM Pipelines</span>
+              <span>Data Mining</span>
+              <span>Process Automation</span>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card" id="service-security">
+            <div class="service-header">
+              <div class="service-icon"><i class="fa-solid fa-lock"></i></div>
+              <span class="service-num">05</span>
+            </div>
+            <h3 class="service-title">Cybersecurity & Governance</h3>
+            <p class="service-desc">
+              Vulnerability assessments, end-to-end data encryption, identity access management (IAM), OWASP audits, and enterprise disaster recovery planning.
+            </p>
+            <div class="service-tags">
+              <span>OWASP Top 10</span>
+              <span>Data Protection</span>
+              <span>Pen Testing</span>
+            </div>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card" id="service-web-mobile">
+            <div class="service-header">
+              <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+              <span class="service-num">06</span>
+            </div>
+            <h3 class="service-title">Modern Web & Mobile Apps</h3>
+            <p class="service-desc">
+              Lightning-fast, mobile-first responsive web applications, progressive web apps (PWAs), and cross-platform native iOS & Android applications.
+            </p>
+            <div class="service-tags">
+              <span>Responsive UI/UX</span>
+              <span>Cross-Platform</span>
+              <span>SEO Optimized</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Architecture & Laravel Showcase Section -->
+    <section class="architecture-section section-padding" id="architecture">
+      <div class="container">
+        <div class="architecture-box">
+          <div class="architecture-text">
+            <span class="section-badge"><i class="fa-brands fa-laravel"></i> Laravel 11 Backend Ready</span>
+            <h2>Production-Grade Laravel Architecture Included</h2>
+            <p>
+              We don't just provide client templates; this project features a fully architected, clean <strong>Laravel 11 backend structure</strong> with controllers, database migrations, security middleware, mail notifications, and RESTful API endpoints ready for deployment.
+            </p>
+
+            <div class="arch-feature-list">
+              <div class="arch-feature">
+                <i class="fa-solid fa-code-commit"></i>
+                <div>
+                  <strong>RESTful Contact & Inquiry API</strong>
+                  <p>Handles real-time client inquiries with automated email notifications and CSRF/rate-limit protection.</p>
+                </div>
+              </div>
+              <div class="arch-feature">
+                <i class="fa-solid fa-database"></i>
+                <div>
+                  <strong>Complete Database Schema & Migrations</strong>
+                  <p>Includes relational tables for Inquiries, Consultations, and Audit Logs with indexing for fast queries.</p>
+                </div>
+              </div>
+              <div class="arch-feature">
+                <i class="fa-solid fa-server"></i>
+                <div>
+                  <strong>Enterprise Ready Middleware & Validation</strong>
+                  <p>Input sanitation, anti-spam honeypot, and secure JSON payload response handling.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="arch-cta-wrap">
+              <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Test Live Contact Form</a>
+              <a href="laravel-backend/README.md" target="_blank" class="btn btn-outline"><i class="fa-solid fa-folder-tree"></i> View Backend Docs</a>
+            </div>
+          </div>
+
+          <div class="architecture-preview">
+            <div class="code-terminal">
+              <div class="terminal-bar">
+                <div class="terminal-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="terminal-title">ContactController.php — Kabhyan API</div>
+              </div>
+              <pre class="code-content"><code><span class="c-keyword">&lt;?php</span>
+
+<span class="c-keyword">namespace</span> App\Http\Controllers;
+
+<span class="c-keyword">use</span> App\Models\Inquiry;
+<span class="c-keyword">use</span> Illuminate\Http\Request;
+<span class="c-keyword">use</span> Illuminate\Support\Facades\Mail;
+
+<span class="c-keyword">class</span> <span class="c-class">ContactController</span> <span class="c-keyword">extends</span> Controller
+{
+    <span class="c-keyword">public function</span> <span class="c-func">submit</span>(Request <span class="c-var">$request</span>)
+    {
+        <span class="c-var">$validated</span> = <span class="c-var">$request</span>-&gt;validate([
+            <span class="c-str">'name'</span>    =&gt; <span class="c-str">'required|string|max:120'</span>,
+            <span class="c-str">'email'</span>   =&gt; <span class="c-str">'required|email|max:150'</span>,
+            <span class="c-str">'phone'</span>   =&gt; <span class="c-str">'nullable|string|max:20'</span>,
+            <span class="c-str">'service'</span> =&gt; <span class="c-str">'required|string'</span>,
+            <span class="c-str">'message'</span> =&gt; <span class="c-str">'required|string|min:10'</span>
+        ]);
+
+        <span class="c-var">$inquiry</span> = Inquiry::create(<span class="c-var">$validated</span>);
+        
+        <span class="c-comment">// Send automated enterprise notification</span>
+        Mail::to(config(<span class="c-str">'mail.admin'</span>))
+            -&gt;queue(<span class="c-keyword">new</span> InquiryReceived(<span class="c-var">$inquiry</span>));
+
+        <span class="c-keyword">return</span> response()-&gt;json([
+            <span class="c-str">'status'</span>  =&gt; <span class="c-str">'success'</span>,
+            <span class="c-str">'message'</span> =&gt; <span class="c-str">'Thank you for contacting Kabhyan Technologies!'</span>
+        ], 200);
+    }
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities & Why Choose Us -->
+    <section class="capabilities-section section-padding bg-subtle" id="capabilities">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-badge"><i class="fa-solid fa-award"></i> The Kabhyan Advantage</span>
+          <h2 class="section-title">Built For Stability, Speed, & High Concurrency</h2>
+          <p class="section-subtitle">
+            Our engineering methodology guarantees that your systems never crumble under peak loads or growing user traffic.
+          </p>
+        </div>
+
+        <div class="capabilities-grid">
+          <div class="cap-card">
+            <div class="cap-number">01</div>
+            <h4>Architectural Precision</h4>
+            <p>Every system is blueprinted before execution. We map database schema, caching layers, and external APIs to avoid bottlenecks.</p>
+          </div>
+          <div class="cap-card">
+            <div class="cap-number">02</div>
+            <h4>Modern Clean Tech Stack</h4>
+            <p>We leverage contemporary standards: PHP 8.3+, Laravel 11, TypeScript, Redis, PostgreSQL, and containerized Docker environments.</p>
+          </div>
+          <div class="cap-card">
+            <div class="cap-number">03</div>
+            <h4>Enterprise-Grade Security</h4>
+            <p>CSRF defense, SQL injection immunity, rate limiting, granular RBAC (role-based access control), and end-to-end data encryption.</p>
+          </div>
+          <div class="cap-card">
+            <div class="cap-number">04</div>
+            <h4>Agile Milestone Delivery</h4>
+            <p>Bi-weekly sprint demos, complete transparency, CI/CD automated staging deployments, and continuous client collaboration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies / Work Portfolio -->
+    <section class="case-studies-section section-padding" id="case-studies">
+      <div class="container">
+        <div class="section-badge-center">
+          <span class="section-badge"><i class="fa-solid fa-briefcase"></i> Selected Projects</span>
+          <h2 class="section-title">High-Performance Platforms We've Delivered</h2>
+          <p class="section-subtitle">
+            A glimpse into digital transformations built for business impact and reliable user experiences.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-badge">Event & Summit Platform</div>
+            <div class="project-icon-top"><i class="fa-solid fa-calendar-check"></i></div>
+            <h3>IDEAx Summit 2026 Platform</h3>
+            <p>High-concurrency attendee registration portal, ticketing workflow, and live streaming scheduler engineered for national summit attendees.</p>
+            <div class="project-metrics-row">
+              <div><strong>10k+</strong> Concurrent Registrations</div>
+              <div><strong>99.98%</strong> Uptime During Keynote</div>
+            </div>
+            <div class="project-tags">
+              <span>Laravel API</span>
+              <span>Redis Cache</span>
+              <span>Cloudflare CDN</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-badge">Enterprise Web & ERP</div>
+            <div class="project-icon-top"><i class="fa-solid fa-industry"></i></div>
+            <h3>Brrasbrazeal Corporate Portal</h3>
+            <p>Comprehensive enterprise website and product catalog built with ultra-responsive UX, dynamic quote estimation, and automated lead routing.</p>
+            <div class="project-metrics-row">
+              <div><strong>0.8s</strong> Page Speed Index</div>
+              <div><strong>+140%</strong> Inbound Lead Growth</div>
+            </div>
+            <div class="project-tags">
+              <span>Responsive Web</span>
+              <span>SEO Architecture</span>
+              <span>CRM Webhooks</span>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-badge">Cloud Infrastructure</div>
+            <div class="project-icon-top"><i class="fa-solid fa-server"></i></div>
+            <h3>Multi-Tenant Cloud Logistics</h3>
+            <p>Scalable cloud infrastructure managing real-time vehicle telematics, route optimization, automated invoicing, and driver assignment.</p>
+            <div class="project-metrics-row">
+              <div><strong>4.5M+</strong> Monthly Events</div>
+              <div><strong>sub-50ms</strong> API Latency</div>
+            </div>
+            <div class="project-tags">
+              <span>Docker & K8s</span>
+              <span>PostgreSQL</span>
+              <span>WebSocket Feeds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Map & Physical Location Section -->
+    <section class="location-section section-padding bg-subtle" id="location">
+      <div class="container">
+        <div class="location-header">
+          <div>
+            <span class="section-badge"><i class="fa-solid fa-map-location-dot"></i> Visit Our Office</span>
+            <h2 class="section-title">Headquarters & Global Delivery</h2>
+            <p class="section-subtitle">
+              We welcome clients and technology partners to visit our engineering office or schedule an in-person tech consultation.
+            </p>
+          </div>
+          <div class="map-direct-btn-wrap">
+            <a href="https://maps.app.goo.gl/vBjVmAvmamZSQBzy9" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="open-google-maps-btn">
+              <i class="fa-brands fa-google"></i>
+              <span>Open in Google Maps App</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-card">
+            <div class="loc-item">
+              <div class="loc-icon"><i class="fa-solid fa-building-flag"></i></div>
+              <div>
+                <h4>Registered Corporate Office</h4>
+                <p>Kabhyan Technologies Private Limited<br>Ward No. 9, Rangia, Kamrup District, Assam - 781354, India</p>
+              </div>
+            </div>
+
+            <div class="loc-item">
+              <div class="loc-icon"><i class="fa-solid fa-phone-volume"></i></div>
+              <div>
+                <h4>Direct Phone Contact</h4>
+                <p><a href="tel:+917086959737">+91 70869 59737</a> (Business Inquiries)<br>Mon - Sat, 9:00 AM - 7:00 PM IST</p>
+              </div>
+            </div>
+
+            <div class="loc-item">
+              <div class="loc-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+              <div>
+                <h4>Official Email Channels</h4>
+                <p><a href="mailto:info@kabhyan.com">info@kabhyan.com</a><br><a href="mailto:support@kabhyan.com">support@kabhyan.com</a></p>
+              </div>
+            </div>
+
+            <div class="loc-badge-box">
+              <i class="fa-solid fa-certificate"></i>
+              <div>
+                <strong>Verified Enterprise Entity</strong>
+                <p>Registered Private Limited Entity in Ministry of Corporate Affairs (MCA), India.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Embedded Interactive Map -->
+          <div class="map-embed-wrapper">
+            <iframe 
+              title="Kabhyan Technologies Google Map Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14316.516109968415!2d91.6212!3d26.4385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a596328a6fcf7%3A0x6b4f7623910ff69c!2sRangia%2C%20Assam!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              class="map-iframe"
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="map-overlay-card">
+              <div class="map-overlay-title"><i class="fa-solid fa-compass"></i> Kabhyan Tech HQ</div>
+              <p>Rangia, Kamrup, Assam</p>
+              <a href="https://maps.app.goo.gl/vBjVmAvmamZSQBzy9" target="_blank" rel="noopener" class="map-overlay-link">
+                Get Directions <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Consultation Form Section -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="contact-card-container">
+          <div class="contact-info-panel">
+            <span class="badge-white">Let's Build Something Exceptional</span>
+            <h2>Ready to Accelerate Your Enterprise Software?</h2>
+            <p>
+              Speak directly with our senior software architects. Whether you need a full enterprise system, custom Laravel backend development, or cloud transformation, we are ready.
+            </p>
+
+            <div class="quick-highlights">
+              <div class="qh-item">
+                <i class="fa-solid fa-shield-check"></i>
+                <span>Strict Mutual NDA Signed Before Kickoff</span>
+              </div>
+              <div class="qh-item">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>Initial Architecture Response in Under 24 Hours</span>
+              </div>
+              <div class="qh-item">
+                <i class="fa-solid fa-handshake"></i>
+                <span>Flexible Engagement (Dedicated Squads / Fixed Scope)</span>
+              </div>
+            </div>
+
+            <div class="client-testimonial-quote">
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <p>"Kabhyan Technologies brought enterprise-level software discipline to our platform development. Their attention to clean code, performance, and reliability made a huge difference."</p>
+              <span class="client-name">— Enterprise Partner Review</span>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <form id="enterprise-inquiry-form" class="enterprise-form" novalidate>
+              <div class="form-title-group">
+                <h3>Request an Enterprise Consultation</h3>
+                <p>Fill out the form below. Connected to our Laravel API backend.</p>
+              </div>
+
+              <!-- Status Alert Box -->
+              <div class="alert-box" id="form-alert" style="display: none;"></div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Full Name <span class="required">*</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="contact-name" name="name" placeholder="e.g. John Doe" required>
+                  </div>
+                  <span class="error-msg" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email">Corporate Email <span class="required">*</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="contact-email" name="email" placeholder="john@enterprise.com" required>
+                  </div>
+                  <span class="error-msg" id="email-error"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-phone">Phone Number</label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" id="contact-phone" name="phone" placeholder="+91 98765 43210">
+                  </div>
+                  <span class="error-msg" id="phone-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-service">Required Service <span class="required">*</span></label>
+                  <div class="input-icon-wrap">
+                    <i class="fa-solid fa-cubes"></i>
+                    <select id="contact-service" name="service" required>
+                      <option value="" disabled selected>Select an Enterprise Service</option>
+                      <option value="Enterprise Software Development">Enterprise Software Development</option>
+                      <option value="Laravel Backend & API Engineering">Laravel Backend & API Engineering</option>
+                      <option value="Cloud Architecture & DevOps">Cloud Architecture & DevOps</option>
+                      <option value="AI & Process Automation">AI & Process Automation</option>
+                      <option value="Database Tuning & Security">Database Tuning & Security</option>
+                      <option value="Custom Modern Web Application">Custom Modern Web Application</option>
+                    </select>
+                  </div>
+                  <span class="error-msg" id="service-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-budget">Estimated Project Scope / Budget</label>
+                <div class="input-icon-wrap">
+                  <i class="fa-solid fa-tag"></i>
+                  <select id="contact-budget" name="budget">
+                    <option value="Less than $5,000 / ₹4 Lakhs">Starter MVP / System Audit</option>
+                    <option value="$5,000 - $15,000 / ₹4 - 12 Lakhs" selected>Enterprise Web Application ($5k - $15k)</option>
+                    <option value="$15,000 - $50,000 / ₹12 - 40 Lakhs">Full Enterprise Scale ($15k - $50k)</option>
+                    <option value="$50,000+ / ₹40 Lakhs+">Custom Corporate Transformation ($50k+)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Project Overview & Requirements <span class="required">*</span></label>
+                <div class="input-icon-wrap textarea-wrap">
+                  <i class="fa-solid fa-comment-dots"></i>
+                  <textarea id="contact-message" name="message" rows="4" placeholder="Briefly describe your business goals, timeline, and tech stack expectations..." required></textarea>
+                </div>
+                <span class="error-msg" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <span class="btn-text">Submit Enterprise Inquiry</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <p class="form-disclaimer">
+                <i class="fa-solid fa-shield-halved"></i> Your information is kept strictly confidential. Protected by Enterprise SSL Encryption.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <img src="assets/logo.png" alt="Kabhyan Technologies Logo" class="footer-logo logo-light">
+          <p class="footer-tagline-text">
+            <strong>Intelligence. Innovation. Impact.</strong><br>
+            Empowering global businesses with dependable enterprise software architecture, Laravel backends, cloud engineering, and continuous innovation.
+          </p>
+          <div class="footer-socials">
+            <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="Kabhyan on LinkedIn" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Kabhyan on Twitter" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com" target="_blank" rel="noopener" aria-label="Kabhyan on GitHub" class="social-link"><i class="fa-brands fa-github"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Kabhyan on Facebook" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Enterprise Services</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services">Enterprise Software</a></li>
+            <li><a href="#services">Laravel API Architecture</a></li>
+            <li><a href="#services">Cloud & DevOps Solutions</a></li>
+            <li><a href="#services">AI & Process Automation</a></li>
+            <li><a href="#services">Cybersecurity Audits</a></li>
+            <li><a href="#services">Database Optimization</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Company</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#about">About Kabhyan</a></li>
+            <li><a href="#capabilities">Engineering Standards</a></li>
+            <li><a href="#case-studies">Client Work & Portfolio</a></li>
+            <li><a href="#architecture">Laravel Architecture</a></li>
+            <li><a href="#location">Office Locations</a></li>
+            <li><a href="#contact">Get in Touch</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col footer-contact-col">
+          <h4 class="footer-col-title">Corporate Office</h4>
+          <p class="footer-address">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Ward No. 9, Rangia, Kamrup District, Assam - 781354, India</span>
+          </p>
+          <p class="footer-contact-link">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+917086959737">+91 70869 59737</a>
+          </p>
+          <p class="footer-contact-link">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:info@kabhyan.com">info@kabhyan.com</a>
+          </p>
+          <div class="footer-map-action">
+            <a href="https://maps.app.goo.gl/vBjVmAvmamZSQBzy9" target="_blank" rel="noopener" class="btn btn-outline-sm">
+              <i class="fa-solid fa-diamond-turn-right"></i> Navigate with Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; 2026 Kabhyan Technologies Private Limited. All rights reserved.
+        </div>
+        <div class="footer-legal">
+          <a href="#privacy">Privacy Policy</a>
+          <span class="sep">&bull;</span>
+          <a href="#terms">Terms of Service</a>
+          <span class="sep">&bull;</span>
+          <a href="#security">Enterprise Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick Action Buttons -->
+  <div class="floating-contact-dock">
+    <a href="https://maps.app.goo.gl/vBjVmAvmamZSQBzy9" target="_blank" rel="noopener" class="dock-btn dock-map" title="View Location on Google Maps">
+      <i class="fa-solid fa-location-dot"></i>
+      <span class="dock-tooltip">Google Maps</span>
+    </a>
+    <a href="https://wa.me/917086959737?text=Hello%20Kabhyan%20Technologies,%20I%20am%20interested%20in%20your%20Enterprise%20Software%20Services." target="_blank" rel="noopener" class="dock-btn dock-whatsapp" title="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="dock-tooltip">WhatsApp</span>
+    </a>
+    <a href="#hero" class="dock-btn dock-top" id="back-to-top" title="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
