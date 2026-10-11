@@ -81,6 +81,81 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // Interactive Testimonial Slider
+  const slides = document.querySelectorAll('.testimonial-slide');
+  const prevBtn = document.getElementById('testi-prev-btn');
+  const nextBtn = document.getElementById('testi-next-btn');
+  const dotsContainer = document.getElementById('testimonial-dots');
+
+  if (slides.length > 0 && dotsContainer) {
+    let currentSlide = 0;
+    let autoSlideTimer = null;
+
+    // Create pagination dots dynamically
+    dotsContainer.innerHTML = '';
+    slides.forEach((_, idx) => {
+      const dot = document.createElement('button');
+      dot.className = `slider-dot ${idx === 0 ? 'active' : ''}`;
+      dot.setAttribute('aria-label', `Go to testimonial slide ${idx + 1}`);
+      dot.addEventListener('click', () => {
+        goToSlide(idx);
+        resetAutoSlide();
+      });
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = dotsContainer.querySelectorAll('.slider-dot');
+
+    function goToSlide(index) {
+      slides[currentSlide].classList.remove('active');
+      if (dots[currentSlide]) dots[currentSlide].classList.remove('active');
+
+      currentSlide = (index + slides.length) % slides.length;
+
+      slides[currentSlide].classList.add('active');
+      if (dots[currentSlide]) dots[currentSlide].classList.add('active');
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        goToSlide(currentSlide - 1);
+        resetAutoSlide();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        goToSlide(currentSlide + 1);
+        resetAutoSlide();
+      });
+    }
+
+    function startAutoSlide() {
+      autoSlideTimer = setInterval(() => {
+        goToSlide(currentSlide + 1);
+      }, 5500);
+    }
+
+    function resetAutoSlide() {
+      if (autoSlideTimer) clearInterval(autoSlideTimer);
+      startAutoSlide();
+    }
+
+    // Start auto slide
+    startAutoSlide();
+
+    // Pause on hover
+    const sliderContainer = document.querySelector('.testimonial-slider-container');
+    if (sliderContainer) {
+      sliderContainer.addEventListener('mouseenter', () => {
+        if (autoSlideTimer) clearInterval(autoSlideTimer);
+      });
+      sliderContainer.addEventListener('mouseleave', () => {
+        startAutoSlide();
+      });
+    }
+  }
+
   // Enterprise Contact Form Submission with Laravel API endpoint integration
   const form = document.getElementById('enterprise-inquiry-form');
   const alertBox = document.getElementById('form-alert');
@@ -196,10 +271,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!submitBtn) return;
     if (isLoading) {
       submitBtn.disabled = true;
-      submitBtn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Submitting to Laravel API...';
+      submitBtn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Submitting Inquiry...';
     } else {
       submitBtn.disabled = false;
-      submitBtn.innerHTML = '<span class="btn-text">Submit Enterprise Inquiry</span> <i class="fa-solid fa-paper-plane"></i>';
+      submitBtn.innerHTML = '<span class="btn-text">Send Project Inquiry</span> <i class="fa-solid fa-paper-plane"></i>';
     }
   }
 
